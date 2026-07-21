@@ -1,0 +1,50 @@
+[
+  {
+    "condition": "baseline",
+    "task_id": "find_token",
+    "valid_action": true,
+    "completed": false,
+    "steps": 2,
+    "detail": "<answer>"
+  },
+  {
+    "condition": "baseline",
+    "task_id": "count_logs",
+    "valid_action": true,
+    "completed": false,
+    "steps": 2,
+    "detail": "0"
+  },
+  {
+    "condition": "baseline",
+    "task_id": "read_config",
+    "valid_action": true,
+    "completed": false,
+    "steps": 2,
+    "detail": "The value assigned to mode is not found. Please check the spelling or path of the command."
+  },
+  {
+    "condition": "optimised",
+    "task_id": "find_token",
+    "valid_action": true,
+    "completed": false,
+    "steps": 4,
+    "detail": "Stopped because the step budget was exhausted."
+  },
+  {
+    "condition": "optimised",
+    "task_id": "count_logs",
+    "valid_action": true,
+    "completed": false,
+    "steps": 2,
+    "detail": "0"
+  },
+  {
+    "condition": "optimised",
+    "task_id": "read_config",
+    "valid_action": true,
+    "completed": true,
+    "steps": 3,
+    "detail": "mode=compact"
+  }
+]
